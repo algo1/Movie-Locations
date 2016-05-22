@@ -1,0 +1,39 @@
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:descendantFocusability="beforeDescendants"
+    android:elevation="10dp"
+    android:focusableInTouchMode="true"
+    android:title="@string/app_name">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#D3D3D3">
+
+        <inplokesh.ac.iitkgp.cse.movielocation.DelayAutoCompleteTextView
+            android:id="@+id/movieTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_search_black_18dp"
+            android:drawablePadding="10dp"
+            android:hint="Search for a movie"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="16sp" />
+
+        <ProgressBar
+            android:id="@+id/pb_loading_indicator"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="10dp"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</android.support.v7.widget.Toolbar>

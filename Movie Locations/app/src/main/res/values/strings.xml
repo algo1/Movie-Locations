@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MovieLocation</string>
+    <string name="title_activity_main">MovieLocation</string>
+    <string name="title_activity_maps">MovieLocation</string>
+</resources>
