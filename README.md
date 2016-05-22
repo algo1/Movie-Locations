@@ -17,5 +17,7 @@ Improvements if additional time is spent :
  1. Much better UI
  
  2. Fragmentation of code into multiple classes for clarity and reusability
+
+ 3. Handling of network disconnection in b/w app usage and some minor bugs.
  
 
